@@ -3,6 +3,7 @@ const unorderedList = document.createElement('ul');
 const listItem = document.createElement("li");
 listItem.textContent = "My First Item";
 listItem.style.color = "blue";
+listItem.id = "my-item";
 unorderedList.appendChild(listItem)
 document.querySelector("body").appendChild(unorderedList);
 /*
@@ -27,12 +28,12 @@ h1Element.remove();
 
 // alternative to the above:
 const h1Element2 = document.querySelector("h1");
-h1Element2.outerHTML = "";
+// h1Element2.outerHTML = "";
 
-h1Element2.outerHTML - "<h2>I just replaced the h1</h2>";
+// h1Element2.outerHTML - "<h2>I just replaced the h1</h2>";
 
 // add your new ul element to the nav-bar
 
 // create two new list item (li) elements, and add some text to them
 
-// add the li elements to the ul in the nav-bar
+// add the li elements to the ul in the nav-bar// 
